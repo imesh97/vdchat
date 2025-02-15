@@ -42,7 +42,7 @@ export const MESSAGES = [
     id: 6,
     text: "what's your favourite memory of us?",
     response:
-      "there's TOO many, can i say 'all of the above'? but if i had to choose, i would say everytime we dance or rap together. it's always the most fun doing it with you, and i always feel a deep passion. so... let's do it again!",
+      "there's TOO many, can i say all of the above? but if i had to choose, i would say everytime we dance or rap together. it's always the most fun doing it with you, and i always feel a deep passion. so... let's do it again!",
   },
   {
     id: 7,
