@@ -114,7 +114,7 @@ const ValentineApp = () => {
   if (screen === "welcome" || screen === "end") {
     return (
       <div
-        className={`min-h-screen bg-gray-50 flex items-center justify-center p-4 transition-opacity duration-300
+        className={`h-[100dvh] overflow-hidden bg-gray-50 flex items-center justify-center p-4 transition-opacity duration-300
         ${screenTransition ? "opacity-0" : "opacity-100"}`}
       >
         <div
@@ -161,7 +161,7 @@ const ValentineApp = () => {
 
   return (
     <div
-      className={`h-screen bg-gray-50 flex flex-col transition-opacity duration-300
+      className={`h-[100dvh] overflow-hidden bg-gray-50 flex flex-col transition-opacity duration-300
       ${screenTransition ? "opacity-0" : "opacity-100"}`}
     >
       <div
@@ -186,7 +186,7 @@ const ValentineApp = () => {
         />
       </div>
 
-      <div className="flex-1 overflow-y-auto px-4">
+      <div className="flex-1 overflow-y-auto overflow-x-hidden px-4">
         <div className="max-w-lg mx-auto py-4">
           {messages.map((message, index) => (
             <Message
